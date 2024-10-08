@@ -13,6 +13,8 @@ export class BigCardComponent implements OnInit {
   cardTitle: string = "Manchete do dia faça igual o peixe NADA"
   @Input()
   cardDescription: string = "Imagem mostra muita coisa em nada!"
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
